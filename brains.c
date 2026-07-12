@@ -14,7 +14,7 @@ int main(void) {
     bool alive = true;
 
     if (alive == false) {
-        printf("rest in peace");
+        printf("rest in hell");
         Sleep(1000);
         return 0;
     }

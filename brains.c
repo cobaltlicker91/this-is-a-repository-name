@@ -1,22 +1,3 @@
-#include <stdio.h>
-#include <stdbool.h>
-
-#ifdef _WIN32
-#include <windows.h>
-#define SLEEP(ms) Sleep(ms)
-#else
-#include <unistd.h>
-#define SLEEP(ms) usleep((ms) * 1000)
-#endif
 int main(void) {
-    printf("hi");
-
-    bool alive = true;
-
-    if (alive == false) {
-        printf("rest in hell");
-        Sleep(1000);
-        return 0;
-    }
-
-}
+    int okay = 0;
+} //folks we are not okay

@@ -1,3 +1,5 @@
+#include <stdio.h>
 int main(void) {
-    int okay = 0;
-} //todo add more stuff
+    printf(" something ");
+return 0;
+}
